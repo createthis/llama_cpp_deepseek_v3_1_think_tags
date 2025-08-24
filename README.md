@@ -11,7 +11,7 @@ To install `mitmdump` so you can view this transcript: https://docs.mitmproxy.or
 To view the entire conversation as plain text:
 
 ```bash
-mitmdump -nr full_traffic.mitm --flow-detail 4
+mitmdump -n --flow-detail 4 -r full_traffic.mitm
 ```
 
 # What
